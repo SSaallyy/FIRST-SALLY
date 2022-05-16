@@ -3,15 +3,51 @@
 <head>
   <title>siyeon news</title>
   <meta charset="utf-8">
+  <style>
+  ol{
+    font-size: 20px;
+    border-right: solid 2px gray;
+    width:100px;
+    margin:0;
+    padding: 15px;
+    padding-top: 20px;
+  }
+  a{
+    text-decoration: none;
+    color:black;
+  }
+  h1{
+    font-size: 60px;
+    text-align: center;
+    border-bottom : 3px solid gray;
+    padding: 20px;
+    margin-bottom: 0px;
+  }
+  h2{
+    font-size: 35px; strong;
+  }
+  #grid{
+    display:grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #grid
+  ol{
+    padding-left:45px;
+  }
+  #grid #article{
+    padding-left: 40px;
+  }
+  </style>
 </head>
 <body>
   <h1><a href="index.html">SIYEON NEWS</a></h1>
+<div id="grid">
   <ol>
-  <li><strong><a href="1.html">NEWS</a></strong></li>
+  <li><strong><a href="1.html" style="text-decoration:underline">NEWS</a></strong></li>
   <li><strong><a href="2.html">VIDEO</a></strong></li>
   <li><strong><a href="3.html">COOKIE</a></strong></li>
 </ol>
-
+<div id="article">
 <h2>BITCOIN NEWS</h2>
 <h4>◆"거대 투자자들, 비트코인을 기술주 중 하나로 바라봐...단기 수익에만 집중"</h4><p><strong>
 5월 2째주 비트코인과 나스닥 가격 움직임, 역대 최고로 근접<br>금과는 멀어지는 비트코인, 최근 2개월 관계지수 더욱 낮아져</strong></p>
@@ -43,3 +79,5 @@
       })();
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></p>
+  </div>
+</div>

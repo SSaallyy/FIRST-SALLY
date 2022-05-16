@@ -6,20 +6,57 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Gaegu&display=swap" rel="stylesheet">
   <meta charset="utf-8">
+
+  <style>
+  ol{
+    font-size: 20px;
+    border-right: solid 2px gray;
+    width:100px;
+    margin:0;
+    padding: 15px;  padding-top: 20px;
+  }
+  img{
+    display: block;margin: auto;
+  }
+  h1{
+    font-size: 60px; text-align: center;
+    border-bottom : 3px solid gray;
+    padding: 20px;
+    margin-bottom: 0px;
+  }
+  h2{
+      font-size: 40px;
+      color : #3399ff;
+      font-family: 'Gaegu', cursive;
+      text-align: center;
+    }
+    a{
+      text-decoration: none;
+      color:black;
+    }
+    #grid{
+      display:grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #grid
+    ol{
+      padding-left:45px;
+    }
+    #grid #article{
+      padding-left: 30px;
+    }
+  </style>
 </head>
 <body>
   <h1><a href="index.html">SIYEON NEWS</a></h1>
+<div id="grid">
   <ol>
   <li><strong><a href="1.html">NEWS</a></strong></li>
   <li><strong><a href="2.html">VIDEO</a></strong></li>
-  <li><strong><a href="3.html">COOKIE</a></strong></li>
+  <li><strong><a href="3.html" style="text-decoration:underline">COOKIE</a></strong></li>
 </ol>
-
-<style>
-  h2{font-size: 40px; color : orange; font-family: 'Gaegu', cursive;}
-</style>
-
-<h2> ♡쿠키 인스타그램 구경하고 맞팔해여♡ <h2>
+<div id="article">
+<h2> ♡쿠키 인스타그램 구경하고 맞팔해여♡ </h2>
 <a href="https://www.instagram.com/cream_c00kiee/" target="_blank" title="누르면 쿠키 인스타그램으로 이동">
 <img src="cookie1.jpg" width="520" /><br>
 <a href="https://www.instagram.com/cream_c00kiee/" target="_blank" title="누르면 쿠키 인스타그램으로 이동">
@@ -44,3 +81,5 @@
       })();
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></p>
+  </div>
+</div>
